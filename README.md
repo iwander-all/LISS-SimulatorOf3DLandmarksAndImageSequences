@@ -23,11 +23,40 @@ openCV 3.
 ```
 
 ## 2. Build LISS on PC
-Clone the repository and run:
+2.1Clone the repository and run:
 ```
     cd ~/home/
     git clone https://github.com/iwander-all/LISS-SimulatorOf3DLandmarksAndImageSequences.git
     cd script
+```
+2.2 Format
+Please build folders in  the way:
+```
+Simulator
+|--support_files
+|  |--EuRoC_traj_data
+|  |  |--XX_0X_XXXX.tum         ->txt data of trajactory of EuRoC (TUM style)
+|  |--txt_data
+|  |  |--trajactory.txt         ->simulated trajactory and rotation data of robot
+|  |  |--line.txt               ->simulated 3D coordinates of lines
+|  |--series_data
+|  |  |--images                 ->camera images simulated at different time and poses
+|  |  |  |--difficult
+|  |  |  |--medium
+|  |  |  |--pure
+|  |  |--landmarksGroundtruth   ->pixel coordinates of landmarks at different time and poses
+|  |  |  |--cubes
+|  |  |  |--lines
+|  |  |  |--stars
+|  |  |  |--triangles
+|
+|--script
+|  |--traj_visual.py            ->viualize the raw trajactory data
+|  |--trajactoryGenerator.py    ->simulate robot poses (20Hz)
+|  |--lineGenerator.py          ->generate lines in 3D, before it runs, please move the previous data or be replaced.
+|  |--utils.py                  ->all the supporting data and functions
+|  |--imageGenerator.py         ->generate simulated camera vision (.png) and groundtruth (.txt)
+|  |--visualize.py              ->visualize the trajactory and landmarks
 ```
 
 ## 3. Run with your device 
@@ -72,4 +101,3 @@ The source code is released under [Apache License 2.0](http://www.apache.org/lic
 
 ## 6. Further Work
 I am still working on improving the code reliability and further work for VIO-SLAM pattern is expected. For any technical issues, please contact me <https://blog.csdn.net/iwanderu/> .
-
