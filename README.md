@@ -35,15 +35,15 @@ Clone the repository and run:
 ```
     python traj_visual.py
 ```
-<a><img src="http://img.youtube.com/vi/mv_9snb_bKs/0.jpg" alt="V1_03_difficult" width="240" height="180" border="10" /></a>
+<a><img src="https://img-blog.csdnimg.cn/20200617175827315.png" alt="V1_03_difficult" width="240" height="180" border="10" /></a>
 
 
 3.2 Build trajectory
 ```
     python trajactoryGenerator.py
 ```
-The red line is selected.
-<a><img src="http://img.youtube.com/vi/mv_9snb_bKs/0.jpg" alt="V1_03_difficult" width="240" height="180" border="10" /></a>
+<a><img src="https://img-blog.csdnimg.cn/20200617175832819.png" alt="general" width="240" height="180" border="10" /></a>
+<a><img src="https://img-blog.csdnimg.cn/20200617175838855.png" alt="detail" width="240" height="180" border="10" /></a>
 
 3.3 Build 3D landmarks
 ```
@@ -53,15 +53,16 @@ The landmarks are randomly built, so if you want to check the built one, please 
 ```
     python visualize.py
 ```
-<a><img src="http://img.youtube.com/vi/mv_9snb_bKs/0.jpg" alt="V1_03_difficult" width="240" height="180" border="10" /></a>
+<a><img src="https://img-blog.csdnimg.cn/20200617175844423.png" alt="V1_03_difficult" width="240" height="180" border="10" /></a>
+<a><img src="https://img-blog.csdnimg.cn/20200617175849576.png" alt="general" width="240" height="180" border="10" /></a>
 
 3.4 Build images
 ```
     python imageGenerator.py
 ```
-<a><img src="http://img.youtube.com/vi/mv_9snb_bKs/0.jpg" alt="201" width="240" height="180" border="10" /></a>
-<a><img src="http://img.youtube.com/vi/mv_9snb_bKs/0.jpg" alt="202" width="240" height="180" border="10" /></a>
-<a><img src="http://img.youtube.com/vi/mv_9snb_bKs/0.jpg" alt="203" width="240" height="180" border="10" /></a>
+<a><img src="https://img-blog.csdnimg.cn/20200617175928388.png" alt="201" width="240" height="180" border="10" /></a>
+<a><img src="https://img-blog.csdnimg.cn/20200617175932506.png" alt="205" width="240" height="180" border="10" /></a>
+<a><img src="https://img-blog.csdnimg.cn/20200617175937951.png" alt="210" width="240" height="180" border="10" /></a>
 
 ## 4. Acknowledgements
 I use [EuRoC](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) for trajectory and poses and the parameters for camera model.
