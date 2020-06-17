@@ -10,8 +10,8 @@ This is a generator tool used for 3D landmarks building based on line features w
 
 **Videos:** There is a introduction video to show how to use this tool.
 
-<a href="https://blog.csdn.net/iwanderu/article/details/106812369" target="_blank"><img src="http://img.youtube.com/vi/mv_9snb_bKs/0.jpg" 
-alt="euroc" width="240" height="180" border="10" /></a>
+<a href="https://blog.csdn.net/iwanderu/article/details/106812369" target="_blank"><img src="https://img-blog.csdnimg.cn/20200617180632435.png" 
+alt="LISS" width="240" height="180" border="10" /></a>
 
 ## 1. Prerequisites
  **python** 
